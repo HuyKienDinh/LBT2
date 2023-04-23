@@ -9,7 +9,8 @@ namespace CoffeeShop
         {
             List<Customer> customers = new List<Customer>();
             char choice;
-
+            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello World!");
             do
             {
                 Customer customer = new Customer();
@@ -110,7 +111,7 @@ namespace CoffeeShop
             Console.WriteLine("--------------------------------------------");
             Console.WriteLine("------------------- BILL -------------------");
             Console.WriteLine("--------------------------------------------");
-            Console.WriteLine("Customer Name: {0}", name);
+            Console.WriteLine("Customer Name is: {0}", name);
             Console.WriteLine("Number Of Coffee Bags: {0}", numBags);
             Console.WriteLine("Total Cost Of Bags: {0:C}", ComputeBill());
             Console.WriteLine("--------------------------------------------");
